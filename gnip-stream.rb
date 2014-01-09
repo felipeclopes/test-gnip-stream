@@ -1,6 +1,7 @@
 require 'gnip-stream'
+require 'yaml'
 
-gnip_config = YAML.load_file(File.join(Rails.root, "config", "gnip.yml"))
+gnip_config = YAML.load_file("gnip.yml")
 
 #To connect to the special twitter powertrack api
 twitter_stream = GnipStream::PowertrackClient.new(gnip_config[:endpoint], gnip_config[:username], gnip_config[:password])
