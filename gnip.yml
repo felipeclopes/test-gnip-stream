@@ -1,3 +1,0 @@
-:endpoint: 'https://stream.gnip.com:443/accounts/<your account>/publishers/twitter/streams/track/prod.json'
-:user: 'test'
-:password: '123'

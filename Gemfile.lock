@@ -1,10 +1,3 @@
-GIT
-  remote: https://github.com/rweald/gnip-stream
-  revision: 11306c604dbbaa927b3cdbc4dbb951b55a0106bf
-  specs:
-    gnip-stream (1.0.0)
-      em-http-request (>= 1.0.3)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -19,10 +12,12 @@ GEM
     em-socksify (0.3.0)
       eventmachine (>= 1.0.0.beta.4)
     eventmachine (1.0.3)
+    gnip-stream (1.0.0)
+      em-http-request (>= 1.0.3)
     http_parser.rb (0.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  gnip-stream!
+  gnip-stream (~> 1.0.0)
